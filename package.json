@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/aula-ts-01/index.js",
-    "dev": "nodemon src/aula-ts-01/index.ts"
+    "start": "node src/aula-ts-04/index.js",
+    "dev": "nodemon src/aula-ts-04/index.ts"
   },
   "keywords": [],
   "author": "",
