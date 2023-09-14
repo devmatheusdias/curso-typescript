@@ -1,20 +1,23 @@
 {
-  "name": "curso-typescript",
+  "name": "movies",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/aula-ts-04/index.js",
-    "dev": "nodemon src/aula-ts-04/index.ts"
+    "dev": "nodemon ./index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.9.2"
+  },
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^20.6.0",
-    "nodemon": "^3.0.1",
+    "@types/node": "^18.16.3",
+    "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.0.4"
   }
 }
